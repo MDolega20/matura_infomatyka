@@ -16,6 +16,7 @@ def con_to_10(number, system):
     return number_new 
 
 def con_to_dec(number):
+    print(str(number) + " => " + str(int(bin(number)[2:])))
     if number < 0:
         number = 0 - number
         return "-"+str(int(bin(number)[2:]))
