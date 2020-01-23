@@ -1,0 +1,23 @@
+58.1
+Stacja 1
+Min temp.: -101
+Stacja 2
+Min temp.: -110011
+Stacja 3
+Min temp.: -1000111
+
+58.2
+Liczba nieudanych pomiarów: 1199
+
+58.3
+Stacja 1
+Rec temp.: 24
+Rec days.: 17
+Stacja 2
+Rec temp.: 129
+Rec days.: 18
+Stacja 3
+Rec temp.: 130
+Rec days.: 18
+
+58.4
