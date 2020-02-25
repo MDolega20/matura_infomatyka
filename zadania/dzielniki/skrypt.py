@@ -7,4 +7,5 @@ def znajdz_dzielniki(liczba):
             dzielniki.append(i)
     return dzielniki;
 
-print(znajdz_dzielniki(50))
+
+print(znajdz_dzielniki(5880))
