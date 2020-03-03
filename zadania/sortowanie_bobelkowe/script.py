@@ -13,4 +13,5 @@ def sort_boble(tablica):
             break
     return tablica
 
-print(sort_boble([1, 5, 6, 3222, 3333, 3, 3, 8, 9, 10, 11]))
+
+print(sort_boble([1, 5, 6, 3222, 3333, 3, 3, 8, 9, 10, 888888888888888, 3423432, 2343254325, 31523523, 11]))
