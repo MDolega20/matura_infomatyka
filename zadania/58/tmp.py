@@ -16,12 +16,11 @@ def con_to_10(number, system):
     return number_new 
 
 def con_to_dec(number):
+    print(str(number) + " => " + str(int(bin(number)[2:])))
     if number < 0:
         number = 0 - number
-        # print(str(-number) + " => -" + str(int(bin(number)[2:])))
         return "-"+str(int(bin(number)[2:]))
     else:
-        # print(str(number) + " => " + str(int(bin(number)[2:])))
         return str(int(bin(number)[2:]))
 
 amount = 0
