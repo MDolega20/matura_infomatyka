@@ -36,4 +36,3 @@ for s in range(1, 4):
                 wrong_index.append(in_line)
 
 print("Liczba nieudanych pomiarów: " + str(len(wrong_index)))
-# print(amount)
