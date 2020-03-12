@@ -1,5 +1,3 @@
-import math
-
 def znajdz_dzielniki(liczba):
     dzielniki = []
     for i in range(1, liczba):
