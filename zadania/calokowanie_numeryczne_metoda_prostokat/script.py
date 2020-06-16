@@ -1,7 +1,6 @@
 def funkcja(x):
     return x ** 2
 
-
 def oblicz(start, end, episolon):
     pole = 0
     step = (end - start) / episolon
@@ -16,6 +15,5 @@ def oblicz(start, end, episolon):
         pos += step
 
     print(pole)
-
 
 oblicz(1, 5, 10000000)

@@ -1,11 +1,13 @@
 def wyszukaj(wzor, string):
     for index, x in enumerate(string):
         if wzor[0] == x:
-            p = True
+            s = True
             for index2, y in enumerate(wzor):
                 if y != string[index + index2]:
-                    return False
-    return True
+                    s = False
+            if s == True:
+                return True
+    return False
 
 
-wyszukaj("ala", "ala ma kota")
+print(wyszukaj("ala", "sdghsdfgsrd ala ma kota"))

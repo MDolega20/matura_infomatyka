@@ -8,4 +8,6 @@ def silnia(l):
 def symbol_newton(n, k):
     return silnia(n) / (silnia(k) * silnia(n - k))
 
-print(symbol_newton(1,4))
+n = int(input("Wpisz n: "))
+k = int(input("Wpisz k: "))
+print(symbol_newton(n,k))

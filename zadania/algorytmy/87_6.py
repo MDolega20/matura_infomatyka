@@ -10,5 +10,5 @@ def algorytm_euklidesa(a,b):
             return a 
     return x(a, b)
 
-print("50,5 => "+str(algorytm_euklidesa(50,5)))
+print("50, 15  => "+str(algorytm_euklidesa(50,5)))
 
